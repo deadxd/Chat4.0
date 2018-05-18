@@ -1,4 +1,4 @@
-var socket = io.connect('http://localhost:1337'); // io usa .connect agora
+var socket = io.connect('http://localhost'); // io usa .connect agora
 
 $('document').ready(() => {
     socket.emit(
