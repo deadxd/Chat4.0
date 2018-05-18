@@ -305,7 +305,7 @@ var Meeting = function (socketioHost) {
 	 */
     function openSignalingChannel(channel) {
         var namespace = _host + '/' + channel;
-        var sckt = io.connect(namespace);
+        var sckt = io.connect(); // remove removi namespace
         return sckt;
     }
 
