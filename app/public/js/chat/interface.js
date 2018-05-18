@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$('document').ready(function () {
     $("#exibe_chat").click(function () {
         $("#conversa").show();
         $("#participantes").hide();

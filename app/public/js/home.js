@@ -2,7 +2,7 @@
 
 var roomUrl;
 
-$( document ).ready(function() {
+$('document').ready(function() {
     generateRoomUrl();
 
 }); // end of document.ready
